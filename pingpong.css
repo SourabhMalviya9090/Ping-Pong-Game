@@ -1,0 +1,98 @@
+/* Styling body */
+body {
+    background-color: #90abae;
+}
+
+/* styling image of Game */
+#img {
+    border: 4px solid maroon;
+    width: 40rem;
+    margin-top: 0px;
+}
+
+/* Adjusting diplay of image and main Headings to adjust it the middle of page */
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#textBox {
+    display: block;
+    width: 43%;
+    margin: auto;
+    font-size: 30px;
+    color: purple;
+}
+
+/* setting display and Styling buttons div */
+#buttonBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8px;
+}
+
+div button {
+    color: white;
+    padding: 8px;
+    border: 2px solid black;
+    margin: 2px;
+    border-radius: 12px;
+}
+
+/* Adding styles to indivisual buttons */
+#btn1 {
+    background-color: green;
+}
+
+#btn2 {
+    background-color: rgb(71, 71, 175);
+}
+
+#btn3 {
+    background-color: rgb(207, 78, 78);
+}
+
+/* Styling actions on buttons */
+#btn1:hover {
+    background-color: black;
+}
+
+#btn2:hover {
+    background-color: black;
+}
+
+#btn3:hover {
+    background-color: black;
+}
+
+/* styling class for winner player */
+.congoBox {
+    display: none;
+    color: rgb(124, 0, 124);
+    font-weight: bold;
+    font-size: larger;
+}
+
+/* Utility Css for some general elements */
+p {
+    margin-top: -8px;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+label {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+b {
+    color: black;
+    font-size: 20px;
+}

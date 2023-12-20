@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong World</title>
+    <link rel="stylesheet" href="pingpong.css">
+</head>
+
+<body>
+    <!-- Heading and image for Game -->
+    <div id="container">
+        <h2 id="mainHeading">Welcome! To this divine World of Ping Pong!</h2>
+        <img id='img'
+            src="https://as1.ftcdn.net/v2/jpg/03/13/47/78/1000_F_313477805_FjdtYLHA78oQBs4sYkPhVwNFDBotcCGi.jpg"
+            alt="Image is loading...">
+        <h3 id="h3">Ping Pong Score Keeper
+        </h3>
+        <p>Use the below buttons to play</p>
+    </div>
+    <!-- Scores of Each player and Select Option for Wining Score -->
+    <div id="textBox"><span id="score1">0</span><span><b> to </b></span> <span id="score2">0</span>
+        <div id="selectBox">
+            <label for="Points">Playing To:</label>
+            <select name="upto" id="upto">
+                <option value='7'>7</option>
+                <option value='6'>6</option>
+                <option value='5'>5</option>
+                <option value='4'>4</option>
+                <option value='3'>3</option>
+                <option value='2'>2</option>
+                <option value='1'>1</option>
+            </select>
+        </div>
+    </div>
+    <!-- Player Buttons -->
+    <div id="buttonBox">
+        <span id="greet1" class="congoBox">Player1 Wins!</span>
+        <button id="btn1">+1 to player1</button><button id="btn2">+1 to player2</button><button
+            id="btn3">ResetGame</button>
+        <span id="greet2" class="congoBox">Player2 Wins!</span>
+    </div>
+
+    <script src="pingpong.js"></script>
+</body>
+
+</html>
